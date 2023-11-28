@@ -13,9 +13,10 @@ const Navbar = () => {
   return (
     <div className='w-full h-[80px] bg-[#14063A]'>
         <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center'>
-            <img src={aimbelogowrapped} className='h-[70px]' />
-            <img src={aimbename} className='h-[40px]' />
-
+            <div className='flex gap-4 items-center'>
+                <img src={aimbelogowrapped} className='h-[70px]' />
+                <img src={aimbename} className='h-[40px]' />
+            </div>
             <div className='hidden md:flex items-center'>
                 <ul className='flex gap-4 text-[#E8FEFF]'>
                     <li>Home</li>
