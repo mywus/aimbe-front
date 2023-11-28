@@ -1,6 +1,7 @@
 import hamburgerMenu from "./hamburgerMenu.svg";
 import close from "./close.svg";
-import logo from "./logo.svg";
+import logo from "./aimbe-logo.svg";
+import aimbename from "./aimbename.svg";
 import lock from "./lock.svg";
 import heroImg from "./heroImg.png";
 import companyLogo1 from "./company-logo-1.png";
@@ -12,7 +13,7 @@ import achievement from "./achievement.png";
 import avatar from "./avatar.png";
 import quotationMark from "./quotationMark.png";
 import cta from "./cta.png"
-
+import aimbelogowrapped from './aimbe-logo-wrapped.svg'
 export {
   hamburgerMenu,
   close,
@@ -27,7 +28,9 @@ export {
   achievement,
   avatar,
   quotationMark,
-  cta
+  cta,
+  aimbename,
+  aimbelogowrapped
 
 
 };

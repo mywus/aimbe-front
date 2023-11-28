@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { logo, lock, hamburgerMenu, close } from '../assets';
+import { logo, lock, hamburgerMenu, close, aimbename, aimbelogowrapped } from '../assets';
 
 const Navbar = () => {
 
@@ -10,10 +10,10 @@ const Navbar = () => {
     }
 
   return (
-    <div className='w-full h-[80px] bg-white border-b'>
+    <div className='w-full h-[80px] bg-[#0e0325] border-b'>
         <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center'>
-
-            <img src={logo} className='h-[25px]' />
+            <img src={aimbelogowrapped} className='h-[70px]' />
+            <img src={aimbename} className='h-[40px]' />
 
             <div className='hidden md:flex items-center'>
                 <ul className='flex gap-4'>
@@ -26,11 +26,11 @@ const Navbar = () => {
             </div>
 
             <div className='hidden md:flex'>
-                <button className='flex justify-between items-center bg-transparent px-6 gap-2'>
+                <button className='flex justify-between items-center bg-[#E8FEFF] px-6 gap-2'>
                     <img src={lock}/>
                     Login
                 </button>
-                <button className='px-8 py-3 rounded-md  bg-[#208486] text-white font-bold'>Sign Up For Free</button>
+                <button className='px-8 py-3 rounded-md  bg-[#19094f] text-white font-bold'>Sign Up</button>
             </div>
 
             <div className='md:hidden' onClick={handleClick}>
