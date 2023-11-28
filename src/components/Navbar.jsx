@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { logo, lock, hamburgerMenu, close, aimbename, aimbelogowrapped } from '../assets';
+const pallete = ['#0e0325','#19094f', '#E8FEFF']
 
 const Navbar = () => {
 
@@ -16,7 +17,7 @@ const Navbar = () => {
             <img src={aimbename} className='h-[40px]' />
 
             <div className='hidden md:flex items-center'>
-                <ul className='flex gap-4'>
+                <ul className='flex gap-4 text-[#E8FEFF]'>
                     <li>Home</li>
                     <li>About</li>
                     <li>Support</li>
@@ -39,19 +40,20 @@ const Navbar = () => {
         
         </div>
 
-        <div className={toggle?'absolute z-10 p-4  bg-white w-full px-8 md:hidden border-b':'hidden'}>
+        <div className={toggle?'absolute z-10 p-4  bg-[#0e0325] w-full px-8 md:hidden border-b':'hidden'}>
             <ul>
-                    <li className='p-4 hover:bg-gray-100'>Home</li>
-                    <li className='p-4 hover:bg-gray-100'>About</li>
-                    <li className='p-4 hover:bg-gray-100'>Support</li>
-                    <li className='p-4 hover:bg-gray-100'>Platform</li>
-                    <li className='p-4 hover:bg-gray-100'>Pricing</li>
+                    <li className='p-4  text-white hover:bg-gray-100'>Home</li>
+                    <li className='p-4  text-white hover:bg-gray-100'>About</li>
+                    <li className='p-4  text-white hover:bg-gray-100'>Support</li>
+                    <li className='p-4 text-white hover:bg-gray-100'>Support</li>
+                    <li className='p-4 text-white hover:bg-gray-100'>Platform</li>
+                    <li className='p-4 text-white hover:bg-gray-100'>Pricing</li>
                     <div className='flex flex-col my-4 gap-4'>
-                        <button className='border border-[20B486] flex justify-center items-center  bg-transparent  px-6 gap-2 py-4'>
+                        <button className='border border-[#19094f] flex justify-center items-center  bg-transparent  px-6 gap-2 py-4'>
                          <img src={lock} />
                          Login
                         </button>
-                        <button className='px-8 py-5 rounded-md bg-[#20B486] text-white font-bold'>Sign Up For Free</button>
+                        <button className='px-8 py-5 rounded-md bg-[#19094f] text-white font-bold'>Sign Up For Free</button>
                     </div>
             </ul>
         </div>
