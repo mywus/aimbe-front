@@ -11,7 +11,7 @@ const Navbar = () => {
     }
 
   return (
-    <div className='w-full h-[80px] bg-[#0e0325] border-b'>
+    <div className='w-full h-[80px] bg-[#14063A]'>
         <div className='md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex justify-between items-center'>
             <img src={aimbelogowrapped} className='h-[70px]' />
             <img src={aimbename} className='h-[40px]' />
