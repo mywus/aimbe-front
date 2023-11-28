@@ -19,11 +19,11 @@ const Navbar = () => {
             </div>
             <div className='hidden md:flex items-center'>
                 <ul className='flex gap-4 text-[#E8FEFF]'>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Support</li>
-                    <li>Platform</li>
-                    <li>Pricing</li>
+                    <li className='opacity-70 hover:opacity-100'>Home</li>
+                    <li className='opacity-70 hover:opacity-100'>About</li>
+                    <li className='opacity-70 hover:opacity-100'>Support</li>
+                    <li className='opacity-70 hover:opacity-100'>Platform</li>
+                    <li className='opacity-70 hover:opacity-100'>Pricing</li>
                 </ul>
             </div>
 
