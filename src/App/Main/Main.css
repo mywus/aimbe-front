@@ -1,0 +1,6 @@
+.appContent {
+    padding: 20px;
+    padding-top: 46px;
+    height: 100%;
+    overflow-y: auto;
+}
